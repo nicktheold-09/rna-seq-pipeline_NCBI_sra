@@ -80,9 +80,7 @@ QC Report
 
 ## For automated process of multiple SRAs
 
-```text
 Create an accessions.txt with an list of SRA codes and use the dowwnload_assesions.sh
-```
 
 ```bash
 bash dowwnload_assesions.sh accessions.txt
