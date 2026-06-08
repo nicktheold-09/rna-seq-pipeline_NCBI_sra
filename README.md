@@ -21,7 +21,57 @@ The pipeline automates the initial steps of NGS data processing, allowing resear
 - FastQC
 - MultiQC
 
-## Example Usage
+## Project Structure
+
+```text
+.
+├── download_sra.sh
+├── convert_fastq.sh
+├── run_fastqc.sh
+├── run_multiqc.sh
+├── config/
+│   └── srr_list.txt
+└── results/
+```
+
+## Usage
+
+### 1. Download SRA files
 
 ```bash
-bash sra_qc_pipeline.sh SRRXXXXXXX
+bash download_sra.sh
+```
+
+### 2. Convert SRA to FASTQ
+
+```bash
+bash convert_fastq.sh
+```
+
+### 3. Run FastQC
+
+```bash
+bash run_fastqc.sh
+```
+
+### 4. Generate MultiQC report
+
+```bash
+bash run_multiqc.sh
+```
+
+## Workflow
+
+```text
+SRR Accessions
+      ↓
+download_sra.sh
+      ↓
+convert_fastq.sh
+      ↓
+run_fastqc.sh
+      ↓
+run_multiqc.sh
+      ↓
+QC Report
+```
