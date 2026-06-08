@@ -24,7 +24,7 @@ echo "Starting download of $# accession(s)"
 
 # Itera sobre todos os argumentos recebidos
 for srr in "$@"; do
-    echo "Downloading $srr[...]"
+    echo "Downloading $srr..."
 
     prefetch "$srr" -O "$OUTPUT_DIR"
 
