@@ -31,7 +31,7 @@ Obs: use Conda to config ambients with SRA Toolkit & FastQC/MultiQC
 ├── run_fastqc.sh
 ├── run_multiqc.sh
 ├── config/
-│   └── srr_list.txt
+│   └── accessions.txt
 └── results/
 ```
 
