@@ -39,7 +39,7 @@ while read -r srr; do
     # Ignora linhas vazias
     [[ -z "$srr" ]] && continue
 
-    echo "Downloading $srr[...]"
+    echo "Downloading $srr ..."
 
     prefetch "$srr" -O "$OUTPUT_DIR"
 
