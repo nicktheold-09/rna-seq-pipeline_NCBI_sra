@@ -1,4 +1,4 @@
-# rna-seq-pipeline_NCBI_sra
+# rna-seq-pipeline-NCBI-sra
 Automated Bash pipeline for downloading sequencing data from the SRA using SRA Toolkit and performing quality control analysis with FastQC and MultiQC.
 
 This repository provides a simple and reproducible Bash-based workflow for downloading high-throughput sequencing data from the Sequence Read Archive (SRA) using the SRA Toolkit and performing quality control analysis with FastQC and MultiQC.
