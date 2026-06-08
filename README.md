@@ -5,7 +5,7 @@ This repository provides a simple and reproducible Bash-based workflow for downl
 
 The pipeline automates the initial steps of NGS data processing, allowing researchers to efficiently retrieve public datasets and assess sequencing quality before downstream analyses.
 
-Obs: use Conda as ambient to SRA, FastQC/MultiQC
+Obs: use Conda to config ambients with SRA Toolkit & FastQC/MultiQC
 
 ## Features
 
