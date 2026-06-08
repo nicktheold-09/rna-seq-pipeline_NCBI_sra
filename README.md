@@ -85,7 +85,7 @@ Create an accessions.txt with an list of SRA codes and use the dowwnload_assesio
 ```
 
 ```bash
-bash bash dowwnload_assesions.sh accessions.txt
+bash dowwnload_assesions.sh accessions.txt
 ```           
 
 
